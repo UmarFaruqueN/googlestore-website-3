@@ -9,6 +9,9 @@
 .header {
     width: 1519px;
     height: 56px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
 }
 
 .headerInner {
@@ -44,7 +47,7 @@
     cursor: pointer;
 }
 
-headerIcons i {
+.headerIcons i {
     font-size: 24px;
 }
 
@@ -99,11 +102,13 @@ left pannel */
 .checkBox {
     height: 102px;
     width: 294px;
+    
 }
 
 .checkBox h3 {
     color: black;
     padding-bottom: 22px;
+    
 }
 
 .checkBox label {
